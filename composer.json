@@ -4,13 +4,10 @@
   "type": "library",
   "require": {
     "spomky-labs/cbor-php": "^3.0",
-    "ext-openssl": "*"
+    "ext-openssl": "*",
+    "php": ">=8.0"
   },
-  "require-dev": {
-    "spomky-labs/cbor-php": "^3.0",
-    "ext-openssl": "*"
-  },
-  "license": "GPLv3",
+  "license": "GPL-3.0-or-later",
   "autoload": {
     "psr-4": {
       "Appdb\\Attestvalidator\\": "src/"
