@@ -1,0 +1,25 @@
+{
+  "name": "appdb/attestvalidator",
+  "description": "Use this code to validate attestation and assertions from appdb app attestation API",
+  "type": "library",
+  "require": {
+    "spomky-labs/cbor-php": "^3.0",
+    "ext-openssl": "*"
+  },
+  "require-dev": {
+    "spomky-labs/cbor-php": "^3.0",
+    "ext-openssl": "*"
+  },
+  "license": "GPLv3",
+  "autoload": {
+    "psr-4": {
+      "Appdb\\Attestvalidator\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "appdb",
+      "email": "contact@dbservices.to"
+    }
+  ]
+}
