@@ -2,6 +2,8 @@
   "name": "appdb/attestvalidator",
   "description": "Use this code to validate attestation and assertions from appdb app attestation API",
   "type": "library",
+  "version": "1.0.0",
+  "homepage": "https://appdb.to",
   "require": {
     "spomky-labs/cbor-php": "^3.0",
     "ext-openssl": "*",
